@@ -24,7 +24,7 @@ hi=1
 
  #Having trouble determining why it doesn't erase after 1st loop, 
  #I think it's reading as if there are 
- #2 different objects in the memory
+ #2 different objects in memory
 while hi > 0:   
     a.eraseObject(obj,x1,y1)               
     a.moveObject(obj,x1,y1,vx,vy)

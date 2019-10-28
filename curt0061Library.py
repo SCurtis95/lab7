@@ -106,7 +106,7 @@ def eraseObject(obj,x1,y1):
 
 
 def moveObject(obj,x1,y1,vx,vy):
-    eraseObject(obj,x1,y1)
+    
     x1 = (x1+vx)
     y1 = (y1+vy)
     displayObject(obj,x1,y1)
@@ -114,7 +114,6 @@ def moveObject(obj,x1,y1,vx,vy):
 
 
 def checkCollision(obj,x1,y1,vx,vy,Sx=128,Sy=64):
-
     w=8
     h=8
     if y1<0:
